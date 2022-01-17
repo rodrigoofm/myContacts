@@ -15,5 +15,7 @@ module.exports = {
     'prefer-const': 'off',
     'no-promise-executor-return': 'off',
     camelcase: 'off',
+    'no-unused-vars': ['error', { argsIgnorePattern: 'next' }],
+
   },
 };
